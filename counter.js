@@ -3,7 +3,7 @@
 
   const clickHandler = (e) => {
     const $targetButton = e.currentTarget;
-    let currentCount = perseInt($counter.textContent);
+    let currentCount = parseInt($counter.textContent);
     if ($targetButton.textContent === "+") {
       $counter.textContent = currentCount + 1;
     } else {
